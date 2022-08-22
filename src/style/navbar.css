@@ -1,0 +1,36 @@
+.navbar {
+  margin: 9px 3% 0 3%;
+}
+
+.navlinks {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 6%;
+  margin-right: 21px;
+}
+
+.title {
+  display: inline;
+}
+
+.holder {
+  list-style: none;
+  margin-left: auto;
+}
+
+.holder li {
+  display: inline;
+  padding: 10px;
+}
+
+.link {
+  text-decoration: none;
+  color: #004eff;
+}
+
+ul a:hover {
+  color: #0d2764;
+}
