@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import logo from '../assests/logo.png';
 import '../style/navbar.css';
 
@@ -10,20 +10,20 @@ const Navbar = () => (
       <h1 className="title">Space Travelers&apos; Hub</h1>
       <ul className="holder">
         <li>
-          <Link to="/" className="link active">Rockets</Link>
+          <NavLink to="/" className="link">Rockets</NavLink>
         </li>
         <li>
-          <Link to="/missions" className="link">Missions</Link>
+          <NavLink to="/missions" className="link">Missions</NavLink>
         </li>
         <li>
           |
         </li>
         <li>
-          <Link to="/my-profile" className="link">My Profile</Link>
+          <NavLink to="/my-profile" className="link">My Profile</NavLink>
         </li>
       </ul>
     </div>
-    <hr/>
+    <hr />
   </div>
 );
 

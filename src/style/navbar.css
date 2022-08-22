@@ -34,3 +34,7 @@
 ul a:hover {
   color: #0d2764;
 }
+
+.active {
+  text-decoration: underline;
+}
