@@ -1,8 +1,6 @@
 th,
 td {
   border: 1px solid #dee2e6;
-  row-gap: 0px;
-  padding: auto;
 }
 
 .missions-table {
@@ -28,14 +26,14 @@ td {
 .status-table p {
   white-space: nowrap;
   background-color: rgb(109, 117, 125);
-  margin: 0rem 0.3rem;
+  margin: 0 0.3rem;
   color: white;
   padding: 0.2rem;
   border-radius: 4px;
 }
 
 .title-table th {
-  padding: 0.5rem 0rem 0.5rem 0.2rem;
+  padding: 0.5rem 0 0.5rem 0.2rem;
 }
 
 .join-button {
@@ -44,6 +42,6 @@ td {
   border-radius: 4px;
   border: 1px solid black;
   font-size: 1.2rem;
-  margin: 0rem 0.3rem;
+  margin: 0 0.3rem;
   cursor: pointer;
 }
