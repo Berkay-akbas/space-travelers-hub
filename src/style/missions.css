@@ -45,4 +45,5 @@ td {
   border: 1px solid black;
   font-size: 1.2rem;
   margin: 0rem 0.3rem;
+  cursor: pointer;
 }
