@@ -30,6 +30,8 @@ td {
   color: white;
   padding: 0.2rem;
   border-radius: 4px;
+  min-width: 8rem;
+  text-align: center;
 }
 
 .title-table th {
@@ -44,4 +46,5 @@ td {
   font-size: 1.2rem;
   margin: 0 0.3rem;
   cursor: pointer;
+  min-width: 8.5rem;
 }
