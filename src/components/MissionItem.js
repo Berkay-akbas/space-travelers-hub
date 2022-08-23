@@ -8,9 +8,15 @@ const MissionItem = (props) => {
   } = props;
 
   return (
-    <tr>
-      <td>{name}</td>
-      <td>{description}</td>
+    <tr className="content-table">
+      <td className="name-table">{name}</td>
+      <td className="description-table">{description}</td>
+      <td className="status-table">
+        <p>NOT A MEMBER</p>
+      </td>
+      <td className="join-table">
+        <button type="button" className="join-button">Join Mission</button>
+      </td>
     </tr>
   );
 };
