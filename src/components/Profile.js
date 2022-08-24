@@ -20,7 +20,7 @@ const Profile = () => {
         </ul>
       </div>
       <div className="rocketsProfile">
-        <h1>My Rocket</h1>
+        <h1>My Rockets</h1>
         <ul className="rocketList">
           {reserved.map((rocket) => (
             <li key={rocket.id}>{rocket.rocketName}</li>
