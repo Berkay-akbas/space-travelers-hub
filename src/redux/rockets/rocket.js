@@ -44,7 +44,7 @@ export const fetchData = createAsyncThunk(GET_ROCKETS, async () => {
       id: key.id,
       rocketName: key.rocket_name,
       description: key.description,
-      image: key.flickr_images[1],
+      image: key.flickr_images[0],
       reserved: false,
     });
     return arr;

@@ -2,6 +2,7 @@ import React from 'react';
 import { useDispatch } from 'react-redux';
 import '../style/rocket.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+
 import { reserveRocket, cancelReserve } from '../redux/rockets/rocket';
 
 const RocketItem = (rockets) => {
@@ -25,13 +26,20 @@ const RocketItem = (rockets) => {
         <img src={image} className="pic" alt={rocketName} />
         <div className="detail">
           <h1>{rocketName}</h1>
-          <p className="description">{description}</p>
+
+          <p className="description">
+            {reserved && (
+              <span className="label">Reserved</span>
+            )}
+
+            {description}
+          </p>
 
           {!reserved && (
-          <button type="button" className="btn btn-md btn-info" onClick={handelReserve}>Reserv Rocket</button>
+          <button type="button" className="btn btn-md btn-primary" onClick={handelReserve}>Reserve Rocket</button>
           )}
           {reserved && (
-          <button type="button" className="btn btn-md btn-danger" onClick={handelCancel}>Cancel Rocket</button>
+          <button type="button" className="btn btn-md btn-default" onClick={handelCancel}>Cancel Reservation</button>
           )}
 
         </div>
