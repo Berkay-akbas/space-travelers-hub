@@ -1,0 +1,15 @@
+.missionsProfile li {
+  border: 1px solid #dee2e6;
+  list-style: none;
+  text-align: left;
+  padding: 0.5rem;
+}
+
+.missionsProfile {
+  max-width: 30rem;
+  text-align: left;
+}
+
+.Profile-Container {
+  padding: 3rem;
+}
