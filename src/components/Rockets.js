@@ -5,18 +5,20 @@ import RocketItem from './RocketItem';
 import '../style/rocket.css';
 
 const Rockets = () => {
-  const lists = useSelector((state) => state.rockets);
+  const rockets = useSelector((state) => state.rockets);
   const dispatch = useDispatch();
 
   useEffect(() => {
-    dispatch(fetchData());
+    if(rockets.length === 0){
+      dispatch(fetchData());
+    }
   }, []);
 
   return (
     <>
       <div className="rocketContiner">
         {
-          lists.map((item) => (<RocketItem rockets={item} key={item.id} />))
+          rockets.map((item) => (<RocketTable rockets={item} key={item.id} />))
         }
       </div>
     </>
