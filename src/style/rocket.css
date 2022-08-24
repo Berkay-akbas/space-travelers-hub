@@ -20,3 +20,14 @@
 .description {
   text-align: left;
 }
+
+.label {
+  background-color: #18a2b8;
+  margin-right: 20px;
+  padding: 3px;
+  border-radius: 4px;
+}
+
+.btn-default {
+  outline: auto;
+}

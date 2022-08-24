@@ -4,7 +4,7 @@ import logo from '../assests/logo.png';
 import '../style/navbar.css';
 
 const Navbar = () => (
-  <div className="navbar">
+  <div className="homeNav">
     <div className="navlinks">
       <img className="logo" src={logo} alt="logo" />
       <h1 className="title">Space Travelers&apos; Hub</h1>
