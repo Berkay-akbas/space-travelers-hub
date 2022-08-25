@@ -1,0 +1,33 @@
+.pic {
+  height: 140px;
+  width: 191px;
+}
+
+.rocketContent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 42px;
+}
+
+.detail {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 5rem;
+}
+
+.description {
+  text-align: left;
+}
+
+.label {
+  background-color: #18a2b8;
+  margin-right: 20px;
+  padding: 3px;
+  border-radius: 4px;
+}
+
+.btn-default {
+  outline: auto;
+}
